@@ -37,21 +37,33 @@
 			"ns": "SUS"
 		}, {
 			"id": 3.1,
-			"q": "Question 3.1",
+			"q": "Was the vulnerability found on third party/open source libraries?",
 			"y": "NAI",
 			"n": "3.2",
 			"ns": "3.2"
 		}, {
 			"id": 3.2,
-			"q": "Question 3.2",
+			"q": "Was the vulnerability found on a test config file, test directory, or used for unit testing and assumed not deployed to production?",
 			"y": "NAI",
 			"n": "3.3",
 			"ns": "3.3"
 		}, {
 			"id": 3.3,
-			"q": "Question 3.3",
+			"q": "Is the input from a trusted source?",
 			"y": "EXP",
 			"n": "NAI",
+			"ns": "SUS"
+		}, {
+			"id": 3.4,
+			"q": "Is the input validated?",
+			"y": "3.5",
+			"n": "3.5",
+			"ns": "3.5"
+		}, {
+			"id": 3.5,
+			"q": "Is the input sanitized? ",
+			"y": "NAI",
+			"n": "EXP",
 			"ns": "SUS"
 		}, {
 			"id": 4.1,
