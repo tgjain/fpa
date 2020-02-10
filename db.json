@@ -50,9 +50,9 @@
 		}, {
 			"id": 3.3,
 			"q": "Is the input from a trusted source?",
-			"y": "EXP",
-			"n": "NAI",
-			"ns": "SUS"
+			"y": "NAI",
+			"n": "3.4",
+			"ns": "3.4"
 		}, {
 			"id": 3.4,
 			"q": "Is the input validated?",
